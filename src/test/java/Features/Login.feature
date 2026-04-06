@@ -5,6 +5,7 @@ Feature: Connecxion au saucedemo
     And je saisi le mot de passe dutilisateur  "secret_sauce"
     And je click sur le boutton Login
     Then redirection vers la page Home
+
     @Invalideconnexion
   Scenario Outline: Tentative de connexion invalide
     Given je suis sur la page connexion
